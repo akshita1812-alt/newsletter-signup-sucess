@@ -1,0 +1,114 @@
+:root {
+    /* Primary */
+    --color-tomato: hsl(4, 100%, 67%);
+    --color-tomato-bg: hsl(5, 100%, 95%);
+}
+@font-face {
+    font-family: robotoCustom;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+  }
+  
+  /* 700 */
+  @font-face {
+    font-family: robotoCustom;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+  }
+  
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 35%, 92%); }
+body{
+    font-family: robotoCustom, sans-serif;
+    background-color:hsl(249, 20%, 25%);
+    padding-top: 100px;
+}
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 900px;
+    height: 626px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+#update{
+    align-items: center;
+    font-size: 50px;
+}
+.col1,
+.col2{
+    flex: 1;
+  padding: 25px; /* Optional: Add padding to the columns */
+}
+form{
+    margin-top: 30px;
+}
+#input{
+    padding: 15px;
+    width: 94%;
+    border-radius: 5px;
+    border: 2px dotted gainsboro;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#btn{
+    background-color:hsl(246, 91%, 13%) ;
+    color: white;
+    padding: 17px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+#email-error {
+    display: none;
+    color: red;
+}
+.red {
+    outline: 1px solid var(--color-tomato) !important;
+    background: var(--color-tomato-bg);
+    color: var(--color-tomato);
+  }
+
+.sign-up-list{
+    list-style-type: none;
+    padding: 0; /* Remove padding */
+  margin: 0;
+}
+.sign-up-list img{
+    margin-right: 5px;
+}
+.sign-up-list li{
+    padding: 3px;
+}
+.card-container.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3.5rem;
+    max-width: 30rem;
+  } 
+  .hide {
+    display: none !important;
+  }
+  .icon-success {
+    align-self: start;
+  }
+.card-container{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 900px;
+    height: 426px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
