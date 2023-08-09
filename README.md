@@ -30,7 +30,7 @@ Desktop
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-css-grid-and-flexbox-BzMS0Yc9YC](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-css-grid-and-flexbox-BzMS0Yc9YC)
-- Live Site URL: [https://user9511.github.io/frontend-mentor-newsletter-sign-up-with-success-message-main/](https://user9511.github.io/frontend-mentor-newsletter-sign-up-with-success-message-main/)
+- Live Site URL: [https://akshita1812-alt.github.io/newsletter-signup-sucess/]
 
 ### Built with
 
